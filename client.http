@@ -4,5 +4,33 @@
 # Health Checl
 GET {{baseUrl}}/health
 
+###
+
 # Get Rooms
 GET {{baseUrl}}/rooms
+
+###
+
+# Create Room
+POST {{baseUrl}}/rooms
+Content-Type: application/json
+
+{
+    "name": "Vinicius Marotti",
+    "description": "Sala Teste"
+}
+
+###
+
+# Get room questions
+GET {{baseUrl}}/rooms/750fe601-5c39-43d0-996f-ac51e362c77d/questions
+
+###
+
+# Create Question
+POST {{baseUrl}}/rooms/750fe601-5c39-43d0-996f-ac51e362c77d/questions
+Content-Type: application/json
+
+{
+    "question": "Qual linguagem você esta utilizando?"
+}
