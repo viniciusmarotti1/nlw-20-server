@@ -28,9 +28,9 @@ GET {{baseUrl}}/rooms/750fe601-5c39-43d0-996f-ac51e362c77d/questions
 ###
 
 # Create Question
-POST {{baseUrl}}/rooms/750fe601-5c39-43d0-996f-ac51e362c77d/questions
+POST {{baseUrl}}/rooms/e2e76dc2-4254-40b7-857e-7c5261cef56c/questions
 Content-Type: application/json
 
 {
-    "question": "Qual linguagem você esta utilizando?"
+    "question": "Qual a relação de Planta verde e azul?"
 }
